@@ -1,0 +1,22 @@
+{
+  "name": "at",
+  "version": "1.0.0",
+  "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.13.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.2"
+  },
+  "directories": {
+    "test": "test",
+    "scripts": "scripts"
+  }
+}
