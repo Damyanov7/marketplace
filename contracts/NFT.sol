@@ -13,6 +13,7 @@ contract NFT is ERC721URIStorage, Ownable {
     function safeMint(string memory uri, address to)
         public
         payable
+        onlyOwner
         returns (uint256)
     {
         _tokenIdCounter++;
