@@ -1,14 +1,9 @@
-# Sample Hardhat Project
+# Marketplace project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Contains 3 contracts
+- Marketplace it self
+- NFT collection contract
+- Contract used to deploy NFT collections 
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
-# marketplace
+Scripts for deploying the marketplace and the deployment contract
+Test script covering 95%+
